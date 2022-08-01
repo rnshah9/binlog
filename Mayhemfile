@@ -1,6 +1,6 @@
 project: binlog
 target: brecovery
 cmds:
-  - cmd: /repo/build/brecovery @@
+  - cmd: /install/bin/brecovery @@
     env:
       DISABLE_SMOKETEST: '1'
